@@ -28,7 +28,7 @@ Examples
 
 Inspecting a module is as simple as:
 
-.. code:: ṕython
+.. code:: python
 
     from proto_schematics import ProtobufModule
 
@@ -37,7 +37,7 @@ Inspecting a module is as simple as:
 
 You can also do it on a lazy lint unfriendly way:
 
-.. code:: ṕython
+.. code:: python
 
     from proto_schematics import ProtobufModule
     ProtobufModule('my_protobuf_lib').meta_import()
