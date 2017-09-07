@@ -32,7 +32,7 @@ Inspecting a module is as simple as:
 
     from proto_schematics import ProtobufModule
 
-    models = ProtobufModule('my_protobuf_lib').import_schema()
+    models = ProtobufModule('my.protobuf.lib').import_schema()
     MySchamticsModel = models['ProtobufMessageName']
 
 You can also do it on a lazy lint unfriendly way:
@@ -40,7 +40,7 @@ You can also do it on a lazy lint unfriendly way:
 .. code:: python
 
     from proto_schematics import ProtobufModule
-    ProtobufModule('my_protobuf_lib').meta_import()
+    ProtobufModule('my.protobuf.lib').meta_import()
 
     from protobuf_schematics import ProtobufMessageName as MySchematicsModel
 
