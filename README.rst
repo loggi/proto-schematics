@@ -10,7 +10,7 @@ Motivation
 Protobuf and gRPC are great when it comes to high performance schema aware APIs,
 but when Google designed Protobuf, it didn't tried to make the generated code
 idiomatic in Python, which brings a problem when exporting messages outside
-iterface modules. Schematics is a cute and pythonic schema library that goes
+imterface modules. Schematics is a cute and Pythonic schema library that goes
 well with most applications. Why not join both?
 
 Installing
